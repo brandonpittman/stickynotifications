@@ -5,7 +5,7 @@ require 'thor'
 class StickyNotifications < Thor
   desc "new TEXT", "create new Sticky Notification with TEXT"
   def new(sticky_text)
-    %x{open sticky-notifications://note?message=#{escape_string(sticky_text)}}
+    %x{open "sticky-notifications://note?message=#{escape_string(sticky_text)}"}
   end
 
   no_commands do
