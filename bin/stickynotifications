@@ -2,5 +2,7 @@
 
 require 'stickynotifications'
 
+# @author "Brandon Pittman"
+# Starts Thor
 StickyNotifications.start(ARGV)
 
