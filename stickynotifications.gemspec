@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Stickynotifications::VERSION
   spec.authors       = ["brandonpittman"]
   spec.email         = ["brandonpittman@gmail.com"]
-  spec.summary       = %q{StickyNotifications gem}
-  spec.description   = %q{StickyNotifications gem}
+  spec.summary       = %q{A gem for creating Sticky Notifications.}
+  spec.description   = %q{A gem for creating Sticky Notifications.}
   spec.homepage      = "http://pixelsnatch.com"
   spec.license       = "MIT"
 

@@ -5,10 +5,10 @@ describe Stickynotifications do
     expect(Stickynotifications::VERSION).not_to be nil
   end
 
-  xit 'creates a new Sticky Notification' do
-    # base = StickyNotifications.new
-    # expect(base.new('hi there')).to be_true
-  end
+  # it 'creates a new Sticky Notification' do
+  #   base = StickyNotifications.new
+  #   expect(base.new('hi there')).to be_true
+  # end
 
   it 'returns an escaped string' do
     base = StickyNotifications.new
