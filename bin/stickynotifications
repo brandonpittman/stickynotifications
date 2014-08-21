@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'stickynotifications'
+
+StickyNotifications.start(ARGV)
+
