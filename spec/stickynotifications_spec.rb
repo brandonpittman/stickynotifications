@@ -6,7 +6,7 @@ describe Stickynotifications do
   end
 
   it 'returns an escaped string' do
-    base = StickyNotifications::Note.new('Hell, world!')
+    base = StickyNotifications::Note.new('Hello, world!')
     expect(base.escape_string).to be_a String
   end
 end

@@ -2,10 +2,10 @@ require 'uri'
 
 module StickyNotifications
   class Note
-    # @param [String] text to be used as reminder
+    # @param text [String] text to be used as reminder
     # @return [Nil]
-    def new(sticky_text)
-      %x{open "sticky-notifications://note?message=#{escape_string(sticky_text)}"}
+    def create(text)
+      %x{open "sticky-notifications://note?message=#{escape_string(text)}"}
     end
 
     # Escapes the Sticky Notification text for URLs. URI produces %20 for
