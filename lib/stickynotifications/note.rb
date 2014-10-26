@@ -4,6 +4,7 @@ module StickyNotifications
   class Note
     # @param text [String] text to be used as reminder
     # @return [Nil]
+    # Calls Sticky Notifications URL scheme in order to initiate creation of sticky notification.
     def create(text)
       %x{open "sticky-notifications://note?message=#{escape_string(text)}"}
     end
