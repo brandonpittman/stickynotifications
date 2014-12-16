@@ -1,6 +1,6 @@
 # Stickynotifications
 
-TODO: Write a gem description
+A gem for interacting with Sticky Notifications.app on OS X.
 
 ## Installation
 
@@ -20,11 +20,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    `stickynotifications new "Message to create" --title "Title for my Sticky Notification"`
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/stickynotifications/fork )
+1. Fork it ( https://github.com/brandonpittman/stickynotifications/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
